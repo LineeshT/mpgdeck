@@ -1,0 +1,56 @@
+---
+title       : Miles Per Gallon
+author      : Lineesh Thamaran
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Miles Per Gallon
+
+This presentation describes the Miles per gallon application
+
+
+URL : https://lineesh.shinyapps.io/mtcars/
+
+
+## Mileage analysis
+
+
+This application allows the user to plot mpg against other parameters including Cylinders, Transmission, Gears and Weight.
+Use the Variable radio button to select the parameter.
+
+```{r}
+head(mtcars)
+```
+
+--- .class #id 
+
+## mpg vs Cylinders 
+
+The mpg vs Cylinder plot shows how the mpg varies for 4 Cylinders, 6 Cylinders and 8 Cylinders.
+
+
+## mpg vs Transmission
+
+The mpg vs Transmission plot shows how the mpg varies for Automatic and manual transmission.
+
+--- .class #id 
+
+## mpg vs Gears
+
+The mpg vs Gear plot shows how the mpg varies for 3, 4 or 5 gears.
+
+## mpg vs Weight 
+
+The mpg vs Weight  plot shows how the mpg varies by weight of the car.
+
+--- .class #id 
+
+## Show outliers
+
+Show outliers option allows the user to include or exclude the outliers.
